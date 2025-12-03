@@ -1,0 +1,16 @@
+streamlit
+langchain
+faiss-cpu
+sentence-transformers
+transformers
+tqdm
+python-dotenv
+requests
+beautifulsoup4
+readability-lxml
+pypdf
+pdfminer.six
+pymupdf
+playwright
+gunicorn
+uvicorn
