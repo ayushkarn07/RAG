@@ -1,0 +1,76 @@
+/* Global App Background */
+.stApp {
+    background-color: #343541 !important;
+    color: #ECECF1;
+}
+
+/* Hide Streamlit UI */
+#MainMenu,
+footer,
+header {
+    visibility: hidden !important;
+}
+
+/* Chat container */
+.chat-container {
+    margin-bottom: 100px;
+}
+
+/* Chat Messages */
+.stChatMessage {
+    background-color: transparent !important;
+}
+
+/* User bubble */
+.stChatMessage[data-testid="stChatMessage"] .user {
+    background-color: #343541 !important;
+}
+
+/* Alternate Backgrounds */
+.stChatMessage[data-testid="stChatMessage"]:nth-child(odd) {
+    background-color: #343541 !important;
+}
+
+/* Assistant bubble */
+.stChatMessage[data-testid="stChatMessage"]:nth-child(even) {
+    background-color: #444654 !important;
+}
+
+/* Avatar styling (ChatGPT green) */
+.stChatMessage .stAvatar {
+    background-color: #10a37f !important;
+    color: white !important;
+}
+
+/* Input box area */
+.stChatInput {
+    position: fixed !important;
+    bottom: 0;
+    left: 300px;
+    /* leaves space for sidebar */
+    right: 0;
+    background-color: #343541;
+    padding: 20px;
+    z-index: 9999;
+    border-top: 1px solid #4d4d4f;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: #202123 !important;
+    color: #ECECF1 !important;
+}
+
+/* Sidebar radio buttons */
+.stRadio>div {
+    background-color: transparent !important;
+    color: #ddd;
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #10a37f !important;
+    color: white !important;
+    border-radius: 8px !important;
+    border: none !important;
+}
